@@ -1,0 +1,187 @@
+/* .form-backround{
+    padding: 90px 0px 30px 0px;
+    background-image: linear-gradient(to right, var(--main-clr) 0%, #6fccf8 51%, var(--sub-clr) 100%);
+    background-size: 200% auto;
+} */
+.request-city-form {
+    width: 87%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    background-image: linear-gradient(to right, var(--main-clr) 0%, #6fccf8 51%, var(--sub-clr) 100%);
+    background-size: 200% auto;
+}
+
+.request-city-heading {
+    padding: 90px 0px 30px 0px;
+    text-align: center;
+    color: var(--main-clr);
+    border-bottom: 3px solid var(--main-clr);
+}
+
+.stand-size-select,
+.budget-select {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.form-div-1,
+.form-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+    gap: 23px;
+}
+
+.div-inputs {
+    width: 270px;
+    height: 39px;
+    padding-left: 20px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.form-div-1 input {
+    width: 208px;
+    height: 39px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    padding-left: 20px;
+    color: white;
+}
+
+.form-div-1 input::placeholder,
+.div-inputs::placeholder,
+:where(.css-dev-only-do-not-override-17seli4).ant-picker .ant-picker-input>input::placeholder {
+    color: white;
+}
+
+
+.event-details textarea {
+    width: 97.5%;
+    margin-top: 15px;
+    height: 120px;
+    border: 1px solid white;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+}
+
+.event-details textarea::placeholder {
+    color: white;
+}
+
+.form-submit-button {
+    font-size: 20px;
+    padding: 9px 37px;
+    border: 2px solid white;
+    color: white;
+    display: block;
+    transition: 0.5s;
+    background-color: transparent;
+}
+
+.form-submit-button:hover {
+    transform: scale(1.04);
+}
+
+
+
+
+.rq-select {
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.rq-select-country {
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    height: 40px;
+    width: 232px;
+    padding-left: 20px;
+}
+
+.rq-select-country *,
+.rq-select * {
+    background-color: var(--main-clr)
+}
+
+.align-button {
+    margin-top: 51px;
+    display: flex;
+    justify-content: center;
+}
+
+.request-city-form h3 {
+    padding: 10px;
+    color: white;
+}
+
+.ant-d-upload {
+    width: 310px;
+    height: 43px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 0px;
+    color: white;
+}
+
+
+.rq-datepicker {
+    height: 43px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    color: white;
+}
+
+.rq-datepicker svg,
+.ant-d-upload svg {
+    color: white;
+}
+
+.rq-datepicker::placeholder {
+    color: white !important;
+}
+
+.ant-d-upload:hover{
+    background-color: transparent !important;
+    color: white !important;
+    border: 1px solid white!important;
+}
+
+.rq-datepicker:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border-color: transparent !important;
+    border-bottom: 1px solid white !important;
+}
+
+:where(.css-dev-only-do-not-override-17seli4).ant-upload-wrapper .ant-upload-list .ant-upload-list-item .ant-upload-list-item-name {
+    color: white;
+}
+.ant-upload-icon svg, .ant-btn-icon svg{
+    color: white;
+}
+
+:where(.css-dev-only-do-not-override-17seli4).ant-picker-outlined:focus, :where(.css-dev-only-do-not-override-17seli4).ant-picker-outlined:focus-within{
+    background-color: transparent!important;
+    border-color: transparent !important;
+    border-bottom: 1px solid white !important;
+    box-shadow: none!important;
+}
+

@@ -1,0 +1,29 @@
+.content-backround {
+    background-image: url('./Photo/bluebackround.png');
+    background-size: 100% 100%;
+    padding: 20px 0px;
+    margin: 30px 0px;
+}
+
+.lorem {
+
+    padding: 20px;
+    border: 3px solid white;
+    backdrop-filter: blur(10px);
+    box-shadow: 4px 3px 10px #8080803d;
+    border-radius: 10px;
+    line-height: 2;
+    margin: 20px 0px;
+}
+
+.content-heading {
+    /* margin-top: 80px; */
+    text-align: center;
+}
+
+.content-heading h2 {
+    font-weight: bold;
+    color: var(--main-clr);
+    text-transform: uppercase;
+    font-size: 3rem;
+}
