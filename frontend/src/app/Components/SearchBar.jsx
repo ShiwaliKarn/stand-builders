@@ -137,7 +137,7 @@ const allOptions = [
   { value: 'Vancouver' },
   { value: 'Bangkok' },
   { value: 'Khon Kaen' },
-  { value: 'london' }
+  { value: 'London' }
 ];
 
 const SearchBar = () => {
